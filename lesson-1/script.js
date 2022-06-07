@@ -16,6 +16,12 @@ console.log(mathieu);
 
 console.log(jonas instanceof Person);
 
+Person.hey = function () {
+  console.log("Hey there 😎 ");
+};
+
+Person.hey();
+
 //Prototypes
 console.log(Person.prototype);
 
